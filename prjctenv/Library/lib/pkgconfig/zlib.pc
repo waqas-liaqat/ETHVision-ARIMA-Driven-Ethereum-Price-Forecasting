@@ -1,0 +1,13 @@
+prefix=D:/Portfolio projects/ETHVision ARIMA-Driven Ethereum Price Forecasting/prjctenv/Library
+exec_prefix=D:/Portfolio projects/ETHVision ARIMA-Driven Ethereum Price Forecasting/prjctenv/Library
+libdir=D:/Portfolio projects/ETHVision ARIMA-Driven Ethereum Price Forecasting/prjctenv/Library/lib
+sharedlibdir=D:/Portfolio projects/ETHVision ARIMA-Driven Ethereum Price Forecasting/prjctenv/Library/lib
+includedir=D:/Portfolio projects/ETHVision ARIMA-Driven Ethereum Price Forecasting/prjctenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
